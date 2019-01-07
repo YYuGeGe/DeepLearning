@@ -4,7 +4,6 @@
 from __future__ import print_function
 from functools import reduce
 
-
 class VectorOp(object):
     """
     实现向量计算操作
@@ -45,7 +44,7 @@ class VectorOp(object):
         将向量v中的每个元素和标量s相乘
         """
         return map(lambda e: e * s, v)
-
+    
 
 class Perceptron(object):
     def __init__(self, input_num, activator):
